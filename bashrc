@@ -94,7 +94,7 @@ fi
 if [ -f $(pwd)/bash_aliases ]; then
     . /home/rohit/.config/bash/bash_aliases
 else
-    . /home/rohit/.config/bash/bash_aliases
+    . /home/rohit/.bash_aliases
 fi
 
 if ! shopt -oq posix; then
