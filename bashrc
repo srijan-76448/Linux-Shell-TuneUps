@@ -106,6 +106,3 @@ if ! shopt -oq posix; then
 fi
 
 export HISTIGNORE="$(cat $wd/bash_blacklisted)"
-
-neofetch
-
